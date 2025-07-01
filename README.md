@@ -65,7 +65,10 @@ The **Industrial Visit Management System (IVMS)** is a full-featured web applica
 git clone https://github.com/your-username/industrial-visit-management-system.git
 cd industrial-visit-management-system
 
-cd frontend
+cd ../frontend
 npm install
-ng serve
+npm start
 
+cd backend
+npm install
+npm run dev   # or: node index.js / nodemon index.js
