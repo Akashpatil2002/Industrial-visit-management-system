@@ -1,0 +1,132 @@
+<<<<<<< HEAD
+/* ------------------ Media Queries ------------------ */
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .card .card-title {
+    font-size: 1.2rem;
+  }
+
+  .card-category {
+    font-size: 0.8rem;
+  }
+
+  .form-label {
+    font-size: 0.85rem;
+  }
+
+  .form-control,
+  .form-select {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  button.btn-success,
+  button.btn-primary {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+
+  label {
+    font-size: 0.85rem;
+  }
+
+  .text-end {
+    text-align: center !important;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .card .card-title {
+    font-size: 1.3rem;
+  }
+
+  .form-label,
+  label {
+    font-size: 0.9rem;
+  }
+
+  .form-control,
+  .form-select {
+    font-size: 0.95rem;
+    padding: 9px;
+  }
+
+  button.btn-success,
+  button.btn-primary {
+    font-size: 0.95rem;
+    padding: 9px 18px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .card .card-title {
+    font-size: 1.4rem;
+  }
+
+  .form-label,
+  label {
+    font-size: 0.95rem;
+  }
+
+  .form-control,
+  .form-select {
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  button.btn-success,
+  button.btn-primary {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
+=======
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+
+  .icon-container {
+    display: flex; 
+    gap: 8px;
+  }
+  
+>>>>>>> a3455f55b863ce23c7146bb47bef15beccfd15e4

@@ -1,0 +1,44 @@
+<<<<<<< HEAD
+
+=======
+>>>>>>> a3455f55b863ce23c7146bb47bef15beccfd15e4
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./assets/css/animate.min.css";
+<<<<<<< HEAD
+import "./assets/css/CollegeAdmin.css";
+import "./assets/scss/light-bootstrap-dashboard-react.scss?v=2.0.0";
+
+import "./assets/css/demo.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import Dashboard from "views/Dashboard";
+// import Payment from "./views/Payment.js";
+
+=======
+import "./assets/scss/light-bootstrap-dashboard-react.scss?v=2.0.0";
+import "./assets/css/CollegeAdmin.css";
+import "./assets/css/demo.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import Dashboard from "views/Dashboard";
+>>>>>>> a3455f55b863ce23c7146bb47bef15beccfd15e4
+import AdminLayout from "layouts/Admin.js";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(
+  <BrowserRouter>
+    <Switch>
+      <Route path="/admin" render={(props) => <AdminLayout {...props} />} />
+      <Redirect from="/" to="/admin/login" />
+      <Route path="/dashboard" element={<Dashboard/>}></Route>
+<<<<<<< HEAD
+      {/* <Route path="/payment" component={Payment} /> */}
+=======
+>>>>>>> a3455f55b863ce23c7146bb47bef15beccfd15e4
+    </Switch>
+  </BrowserRouter>
+);
